@@ -8,7 +8,7 @@ int idRoomcheck(int id)
   char *tok;
   int lineNum = 1;
   FILE *room;
-  room = fopen("Room.txt", "r"); // Reads reservation file
+  room = fopen("Room.txt", "r"); // Reads Room.txt file
   if (room == NULL)
   {
     printf("Error reading room file");
